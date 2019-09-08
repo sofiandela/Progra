@@ -1,19 +1,22 @@
 public class ManejoDeString{
+	
+	public static void main(String args[]) {
+		
+	Bicicleta roja, verde;
+	String palabra1, palabra2;
+	
+	roja = new Bicicleta('r');
 
-    public static void main (String args[]){
+	verde = roja;
+	verde.pintar('v');
 
-        String palabra1, palabra2;
+	palabra1 = "Hola";
+	palabra2 = palabra1;
+	palabra2 = "Chau";
 
-         palabra1 = "Hola";
+	System.out.println("" + palabra1);
 
-         palabra2 = palabra1;
+	System.out.print(roja.imprimirColor());
 
-         palabra2 = "Chau";
-
-        // Syso(palabra2);
-
-        
-        System.out.println(palabra1);
-
-      }
+	}
 }
