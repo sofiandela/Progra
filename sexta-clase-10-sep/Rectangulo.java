@@ -2,7 +2,7 @@ public class Rectangulo{
     
     private float base;
     private float altura; 
-
+//atributo va con private.
 
     //creamos el costructor de rectángulo
     public Rectangulo(float base, float altura){

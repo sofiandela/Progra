@@ -30,4 +30,8 @@ public class Televisor{
             canal--;
         }
     }
+
+    public int getCanal(){
+        return this.canal;
+    }
 }
