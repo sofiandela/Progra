@@ -1,7 +1,12 @@
+import jdk.vm.ci.code.CodeUtil.NumberedRefMapFormatter;
+
 public class Calculadora{
 
     private int operador1;
     private int operador2;
+    private double numerador;
+    private double divisor;
+
 
     public Calculadora(int operador1, int operador2){
         this.operador1 = operador1;
@@ -19,4 +24,50 @@ public class Calculadora{
         return valor1 + valor2;
     }
     
+    public double sumar(int operador1, int operador2){
+         operador1 = 0;
+         operador2 = 0;
+
+        return operador1 + operador2;
+
+    }
+    public double restar(){
+        double valor1 = 0.0;
+        double valor2 = 0.0;
+        return valor1 - valor2;
+    }
+    
+    public double restar(int operador1, int operador2){
+         operador1 = 0;
+         operador2 = 0;
+
+        return operador1 - operador2;
+
+    }
+    public double multiplicar(){
+        double valor1 = 0.0;
+        double valor2 = 0.0;
+        return valor1 * valor2;
+    }
+    
+    public double multiplicar(int operador1, int operador2){
+         operador1 = 0;
+         operador2 = 0;
+
+        return operador1 * operador2;
+
+    }
+    public double dividir(){
+        double valor1 = 0.0;
+        double valor2 = 0.0;
+        return valor1 * valor2;
+    }
+    
+    public double dividir(int operador1, int operador2){
+         operador1 = 0;
+         operador2 = 0;
+
+        return operador1 * operador2;
+
+    }
 }
