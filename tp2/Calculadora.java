@@ -60,14 +60,26 @@ public class Calculadora{
     public double dividir(){
         double valor1 = 0.0;
         double valor2 = 0.0;
+
+        if(valor)
         return valor1 * valor2;
     }
     
-    public double dividir(int operador1, int operador2){
-         operador1 = 0;
-         operador2 = 0;
+    public double dividir(int numerador, int divisor){
+         numerador = 0;
+         divisor = 0;
 
-        return operador1 * operador2;
+         if(divisor = 0){
+             return "No se puede dividir por cero";
+         }
 
+        return operador1 / operador2;
+    }
+
+    public boolean esPositivo(){
+        if(operador1 > 0 && operador2 > 0){
+            return true;
+        }
+        return false;
     }
 }
